@@ -68,10 +68,9 @@ body {
 /* Quote about Iceland floats right */ 
 
 .quote{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
+    font: 20px 'Open Sans Condensed', sans-serif;
     color: #FFF;
-    float: right;
+      float: right;
     width: 50%;
     margin: 0;
     padding: 10px;
@@ -267,7 +266,12 @@ button {
     font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 20px 0 20px 0;
-    text-align: left;
+    text-align: center;
+    width: 15%;
+    border: 10px double;
+      border-color:  #FA0004 #02529C ;
+      border-radius: 50px ;
+      padding: 5px;
     }
 
 #back-home a {
@@ -276,8 +280,8 @@ button {
     }
     
 #back-home a:hover {
-      background-color: #FA0004;
-      border: 10px;
-      border-radius: 5px;
+     -webkit-box-shadow: inset 0 0 10px #02529C;
+	 -moz-box-shadow: inset 0 0 10px #FA0004 ;
+	 box-shadow: inset 0 0 10px #02529C;
       padding: 5px;
     }
