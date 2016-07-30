@@ -21,7 +21,7 @@ body {
      padding: 0;
     }
 
-/* Chosen color palette is Icelandic flag colors */   
+/* chosen color palette is Icelandic flag colors */   
 
     .nav a {
       text-decoration: none;
@@ -48,7 +48,7 @@ body {
        padding-bottom: 50px;
        }
 
-/* Pseudo selector first letter styled to form a drop-cap effect */ 
+/* pseudo selector first letter styled to form a drop-cap effect */ 
 
 .intro:first-letter {
     color: #FA0004;
@@ -65,7 +65,7 @@ body {
     margin: 0 25px 30px 25px;
     }
 
-/* Quote about Iceland floats right */ 
+/* quote about Iceland floats right */ 
 
 .quote{
     font: 20px 'Open Sans Condensed', sans-serif;
@@ -207,6 +207,9 @@ fieldset {
       padding: 20px 20px 0 20px;
   }  
   
+
+/*used CSS3 to style input boxes */
+
 input {
       border-radius: 5px;
      font-size: 20px;
@@ -250,6 +253,7 @@ button {
      color: #FA0004;
     }
 
+/*used CSS3 to style message textarea box */
 #msg {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
@@ -284,5 +288,4 @@ button {
      border: 2px solid;
      border-radius: 10px;
      padding: 5px;
-     
     }
