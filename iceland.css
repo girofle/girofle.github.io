@@ -269,7 +269,7 @@ button {
     text-align: center;
     width: 15%;
     border: 10px double;
-      border-color:  #FA0004 #02529C ;
+      border-color:  #02529C #FA0004 ;
       border-radius: 50px ;
       padding: 5px;
     }
@@ -280,8 +280,9 @@ button {
     }
     
 #back-home a:hover {
-     -webkit-box-shadow: inset 0 0 10px #02529C;
-	 -moz-box-shadow: inset 0 0 10px #FA0004 ;
-	 box-shadow: inset 0 0 10px #02529C;
-      padding: 5px;
+     color: #FA0004;
+     border: 2px solid;
+     border-radius: 10px;
+     padding: 5px;
+     
     }
