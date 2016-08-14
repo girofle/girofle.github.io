@@ -12,16 +12,19 @@
         
         <!---activities should be listed in list form --> 
         
-        <h1 class="tips">Travel Tips</h1>
+        
         <!---table starts here-->
     
         <table class="activities">
+            <caption>Travel Tips</caption>
              <tr>`    
-            <th class="activity-list"> What to do</th>
-            <th class="sights">Plan your visit</th>
+            <thead>
+                <th scope="col">What to Do</th> 
+                <th scope="col">Plan Your Visit</th> 
              </tr>
-        
+        </thead>
         <!---activities can be added to the list anytime-->       
+             <tbody>
              <tr>
              <td>Swim in the Blue Lagoon</td>
              <td class="lagoon"><a href="http://www.bluelagoon.com/blue-lagoon-spa/prices-and-packages/">Buy your ticket in advance</a></td>
@@ -36,15 +39,19 @@
                 <td>Pick black ice pebbles on Jokulsarlo beach</td>
                 <td class="beach"><a href="https://www.re.is/iceland-on-your-own/">Jokulsarlon lies along the major ring road it is easily accessed. Rent a car for the five hour-drive from Rekjavik</a></td>
             </tr>
+            </tbody>
         </table>
-    
+        
         <!--- new travel providers can be added as needed--->
     
         <table class="traveldeals">
-             <tr>`    
-            <th class="travel-provider">How to get there</th>
-            <th class="airline">Travel Deals</th>    
-            </tr>
+             <thead>
+             <tr>`
+             <th scope="col">How to get there</th> 
+            <th scope="col">Travel Deals</th> 
+             </tr>
+        </thead>
+            <tbody>
              <tr>
              <td>Icelandair</td>
              <td class="icelandair"><a href="http://www.icelandair.us/vacations/">Build your own adventure</a></td>
@@ -53,13 +60,11 @@
                   <td>Nordic Visitor</td> 
                   <td class="nordic"><a href="https://www.iceland.nordicvisitor.com/">Local travel experts offer tailor-made travel packages for all interests and needs</a></td>
                 </tr>
-               
+            </tbody> 
         </table>
         
         <!---table ends here-->
     
-    
-        
        </body>
        
        </html>
